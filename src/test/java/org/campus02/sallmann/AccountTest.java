@@ -39,7 +39,7 @@ class AccountTest {
     @Test
     void credit2() {
         assertEquals(210, test.credit(110));
-        assertEquals(330,test.credit(120));
+        assertEquals(210,test.credit(120));
     }
 
     @Test
