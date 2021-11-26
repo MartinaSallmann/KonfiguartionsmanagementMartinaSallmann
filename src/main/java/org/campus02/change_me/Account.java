@@ -5,13 +5,20 @@ public class Account {
     private double amount;
 
     public Account(String accountOwner) {
-        // TODO: Das Attribut owner muss mit dem Wert des Parameters accountOwner initialisiert werden
+        this.owner = accountOwner;
 
-        // TODO: Das Attribut amount muss mit dem Wert 100.0 initialisiert werden
+        amount = 100.0;
+
     }
 
     public void credit(double value) {
-        // TODO: Der Betrag value soll auf den verfuegbaren Betrag amount aufgebucht werden (amount um value erhoehen)
+
+
+        double sum = amount + value;
+
+        System.out.println("The new amount is " + sum);
+
+
     }
 
     public boolean debit (double value) {
