@@ -56,4 +56,9 @@ class AccountTest {
         assertEquals(false,test.debit(100));
 
     }
+
+    @Test
+    void Abbuchen() {
+        assertEquals(false, test.debit(120));
+    }
 }
