@@ -5,7 +5,7 @@ e-mail: s52113445@edu.campus02.at
  */
 
 
-package org.campus02.change_me;
+package org.campus02.sallmann;
 
 public class Account {
     private String owner;
