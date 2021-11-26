@@ -39,6 +39,8 @@ public class Account {
 
             amount = amount - value;
             return true;
+        }else if (amount == 0){
+            return true;
         }
         else {
             amount = amount - value;
