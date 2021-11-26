@@ -1,8 +1,6 @@
 package org.campus02.sallmann;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -26,4 +24,15 @@ class AccountTest {
     assertEquals(100,Test3.getAmount());
 
 }
+
+
+
+    @Test
+    void credit() {
+
+        assertEquals(220,test.credit(120));
+        assertEquals(220, test2.credit(120));
+        assertEquals(220, Test3.credit(120));
+
+    }
 }

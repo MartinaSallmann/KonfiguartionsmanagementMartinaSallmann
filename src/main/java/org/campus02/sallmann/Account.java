@@ -18,7 +18,7 @@ public class Account {
 
     }
 
-    public void credit(double value) {
+    public double credit(double value) {
 
 
         double sum = amount + value;
@@ -26,6 +26,7 @@ public class Account {
         System.out.println("The new amount is " + sum);
 
 
+        return (double) sum;
     }
 
     public boolean debit (double value) {
