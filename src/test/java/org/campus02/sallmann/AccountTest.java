@@ -35,4 +35,19 @@ class AccountTest {
         assertEquals(220, Test3.credit(120));
 
     }
+
+    @Test
+    void credit2() {
+        assertEquals(210, test.credit(110));
+        assertEquals(330,test.credit(120));
+    }
+
+    @Test
+    void debit() {
+        assertEquals(true,test.debit(90));
+        assertEquals(true, test2.debit(90));
+        assertEquals(true, Test3.debit(90));
+
+
+    }
 }

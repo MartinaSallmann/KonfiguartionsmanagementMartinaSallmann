@@ -20,13 +20,11 @@ public class Account {
 
     public double credit(double value) {
 
+        if (amount < value){
+            amount = amount + value;
+        }
 
-        double sum = amount + value;
-
-        System.out.println("The new amount is " + sum);
-
-
-        return (double) sum;
+        return amount;
     }
 
     public boolean debit (double value) {
