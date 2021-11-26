@@ -33,7 +33,10 @@ public class Account {
             nein: Wenn der Betrag nicht vollständig abgebucht werden kann,
                 wird der verfügbare Betrag nicht geändert und false retourniert. */
 
+
+
         if (amount > value) {
+
             amount = amount - value;
             return true;
         }

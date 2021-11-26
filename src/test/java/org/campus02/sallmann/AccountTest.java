@@ -50,4 +50,10 @@ class AccountTest {
 
 
     }
+
+    @Test
+    void debit2() {
+        assertEquals(false,test.debit(100));
+
+    }
 }
